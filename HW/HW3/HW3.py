@@ -187,7 +187,7 @@ def cal_sys_moments(g_points, big_W):
 
     g_mean = np.dot(g_points, big_W)
     g_sigma = np.sqrt(np.dot((g_points-g_mean)**2, big_W))
-    g_skew = np.dot((((g_points-g_mean)**3)/g_sigma**3), big_W)
+    g_skew = (np.dot((((g_points-g_mean)**3)/g_sigma**3), big_W))**2
     g_kurtosis = np.dot((((g_points-g_mean)**4)/g_sigma**4), big_W)
 
     return g_mean, g_sigma, g_skew, g_kurtosis
@@ -226,6 +226,7 @@ if __name__ == "__main__":
     g_mean, g_sigma, g_skew, g_kurtosis = cal_sys_moments(g_points, big_W)
     p, type = pearson_fit([-np.inf, 22], g_mean, g_sigma, g_skew, g_kurtosis)
 
-    print("\nProblem 2:\nMean:",g_mean,"\nStandard Deviation:", g_sigma, "\nSkew:", g_skew, "\nKurtosis:", g_kurtosis,
+    print("\nProblem 3:\nMean:",g_mean,"\nStandard Deviation:", g_sigma, "\nSkew:", g_skew, "\nKurtosis:", g_kurtosis,
+
           "\nProbaility of Success:", p)
 
