@@ -26,7 +26,7 @@ def pearson_fit(end, mu, sig, beta1, beta2):
     a = (4. * beta2 - 3. * beta1) #/ (10. * beta2 - 12. * beta1 - 18.) * pow(sig,2)
     b = np.sqrt(mu * beta1) * (beta2 + 3.) #/ (10. * beta2 - 12. * beta1 - 18.)
     c = (2. * beta2 - 3. * beta1 - 6.) #/ (10. * beta2 - 12 * beta1 - 18.)
-    print(a,b,c)
+    #print(a,b,c)
     #figure out pearson type
     if abs(b) < 1e-5: 
         if abs(beta2 - 3) < 1e-5:#and abs(c) < 1e-5 and a > 0.: #pearson 0 - Gaussian
@@ -147,5 +147,5 @@ def pearson_fit(end, mu, sig, beta1, beta2):
         m2 = 0.
         p = t.cdf(end[1],m1) - t.cdf(end[0],m1)
     #print(m1, m2)
-    print('distribution type: ',pears_type)
+    #print('distribution type: ',pears_type)
     return p, pears_type
