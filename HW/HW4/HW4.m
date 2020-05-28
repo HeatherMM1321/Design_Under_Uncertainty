@@ -3,6 +3,9 @@
 % Started 5/25/20
 % Due 5/27/20
 
+% NOTE: I have modified the provided motorDesignHW4.m file to take in only 
+% variables and design number (1 or 2) 
+
 clear all 
 clc 
 
@@ -10,11 +13,11 @@ clc
 o_path = path;
 path(o_path, 'C:\Users\MTH\Documents\Gradwork\Spring2020\Design_Under_Uncertainty\HW\HW4\CEtools');
 
-problem = 4;
+problem = 3;
 
 % used for problems 2-4 remaining problems 
 samples = 10000;
-rho = inf; %10 for risk adverse inf for risk neutral
+rho = 10; %10 for risk adverse inf for risk neutral
 high = 40;
 low = 2; 
 
@@ -106,10 +109,10 @@ if problem ==3
         ut_d2(i) =  utility(design_2(i), rho, high, low)*W(i);
         
         %CE design 1 
-        d1_CE(i) = exp(design_1(i)/rho);
+        d1_CE(i) = exp(design_1(i)/rho)*W(i);
         
          %CE design 2 
-        d2_CE(i) = exp(design_2(i)/rho);
+        d2_CE(i) = exp(design_2(i)/rho)*W(i);
         
        
     end
@@ -120,26 +123,26 @@ if problem ==3
     
     %CE design 1
     if rho == inf 
-        d1_CE = CE_exponential(sum(design_1)/length(indx), rho);
+        d1_CE = CE_exponential(design_1*W, rho);
     else 
-        d1_CE = CE_exponential(sum(d1_CE)/length(indx), rho);
+        d1_CE = CE_exponential(d1_CE, rho);
     end 
     
     if rho == inf 
-        d2_CE = CE_exponential(sum(design_2)/length(indx), rho);
+        d2_CE = CE_exponential(design_2*W, rho);
     else 
-        d2_CE = CE_exponential(sum(d2_CE)/length(indx), rho);
+        d2_CE = CE_exponential(d2_CE, rho);
     end 
    
     
     
     fprintf('Problem 3 : rho = %i\n', rho)
     fprintf('Design 1: %.4f\n', d1_mean)
-    fprintf('CE 1: %.4f\n', d1_CE)
+    fprintf('CE 1: %.4f\n', sum(d1_CE)/length(indx))
     fprintf('Utility 1: %.4f\n', sum(ut_d1))
     
     fprintf('Design 2: %.4f\n', d2_mean)
-    fprintf('CE 2: %.4f\n', d2_CE)
+    fprintf('CE 2: %.4f\n', sum(d2_CE)/length(indx))
     fprintf('Utility 2: %.4f\n', sum(ut_d2))
     
     

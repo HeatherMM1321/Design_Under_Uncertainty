@@ -116,6 +116,7 @@ def calculate_sigma(variable_sigmas, variable_derivatives, correlation_matrix):
                              * variable_sigmas[i] * variable_sigmas[j]
     return np.sqrt(sigma_squared)
 
+
 # no correlation
 correlation_matrix_3 = [[1, 0, 0 , 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
 

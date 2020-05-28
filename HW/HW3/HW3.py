@@ -173,7 +173,7 @@ def full_factorial(points, weights):
         idx_D = int(i[0])
         idx_L = int(i[1])
         idx_cu = int(i[2])
-        idx_fe =int(i[3])
+        idx_fe = int(i[3])
         g_points.append(calculate_weight(D[idx_D], L[idx_L], cu[idx_cu], fe[idx_fe], limit=0))
         big_W.append(weights[idx_D]*weights[idx_L]*weights[idx_cu]*weights[idx_fe])
         # table_info.append([D[idx_D], L[idx_L], cu[idx_cu], fe[idx_fe], g_point, weight])

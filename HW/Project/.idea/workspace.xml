@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e0609847-c1f6-430f-b99a-8029def5c86c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../HW_2/HW2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_2/HW2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ME615_Project.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ME615_Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/ME615_Project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/household.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Stats/K-S test lecture14.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Stats/Probability Ch 3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Stats/Probability Space.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Stats/Statistical Analysis.pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Design-Under-Uncertainty" />
+  </component>
+  <component name="ProjectId" id="1brH6F8WY9Zu6ctW23f1Q7diNnM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Software_development/FUEL-package" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.Uncertainty_project_code">
+    <configuration name="ME615_Project" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\MTH\anaconda3\envs\FUEL\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ME615_Project.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Uncertainty_project_code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\MTH\anaconda3\envs\FUEL\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Design-Under-Uncertainty" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Design-Under-Uncertainty/Uncertainty_project_code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="household" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../Software_development/FUEL-package/FUEL" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../Software_development/FUEL-package/FUEL/household.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Uncertainty_project_code" />
+        <item itemvalue="Python.ME615_Project" />
+        <item itemvalue="Python.household" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="669" y="116" key="#ME615_Project" timestamp="1589383185081">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="669" y="116" key="#ME615_Project/-1920.122.1280.693/0.0.1920.1160@0.0.1920.1160" timestamp="1589383185081" />
+    <state x="669" y="175" key="#Uncertainty_project_code" timestamp="1589493586089">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="669" y="175" key="#Uncertainty_project_code/-1920.122.1280.693/0.0.1920.1160@0.0.1920.1160" timestamp="1589493586089" />
+    <state x="690" y="326" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589402957155">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="690" y="326" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.122.1280.693/0.0.1920.1160@0.0.1920.1160" timestamp="1589402957155" />
+    <state x="806" y="183" key="#household" timestamp="1589404831772">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="806" y="183" key="#household/-1920.122.1280.693/0.0.1920.1160@0.0.1920.1160" timestamp="1589404831772" />
+    <state x="1219" y="270" key="FileChooserDialogImpl" timestamp="1589496481366">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1219" y="270" key="FileChooserDialogImpl/-1920.122.1280.693/0.0.1920.1160@0.0.1920.1160" timestamp="1589496481366" />
+    <state width="1876" height="296" key="GridCell.Tab.0.bottom" timestamp="1589496482436">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1876" height="296" key="GridCell.Tab.0.bottom/-1920.122.1280.693/0.0.1920.1160@0.0.1920.1160" timestamp="1589496482436" />
+    <state width="1624" height="409" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589409303466" />
+    <state width="1876" height="296" key="GridCell.Tab.0.center" timestamp="1589496482436">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1876" height="296" key="GridCell.Tab.0.center/-1920.122.1280.693/0.0.1920.1160@0.0.1920.1160" timestamp="1589496482436" />
+    <state width="1624" height="409" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589409303466" />
+    <state width="1876" height="296" key="GridCell.Tab.0.left" timestamp="1589496482436">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1876" height="296" key="GridCell.Tab.0.left/-1920.122.1280.693/0.0.1920.1160@0.0.1920.1160" timestamp="1589496482436" />
+    <state width="1624" height="409" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589409303465" />
+    <state width="1876" height="296" key="GridCell.Tab.0.right" timestamp="1589496482436">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1876" height="296" key="GridCell.Tab.0.right/-1920.122.1280.693/0.0.1920.1160@0.0.1920.1160" timestamp="1589496482436" />
+    <state width="1624" height="409" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589409303466" />
+    <state width="1876" height="401" key="GridCell.Tab.1.bottom" timestamp="1589496482429">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1876" height="401" key="GridCell.Tab.1.bottom/-1920.122.1280.693/0.0.1920.1160@0.0.1920.1160" timestamp="1589496482429" />
+    <state width="1624" height="409" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589409303466" />
+    <state width="1876" height="401" key="GridCell.Tab.1.center" timestamp="1589496482429">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1876" height="401" key="GridCell.Tab.1.center/-1920.122.1280.693/0.0.1920.1160@0.0.1920.1160" timestamp="1589496482429" />
+    <state width="1624" height="409" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1589409303466" />
+    <state width="1876" height="401" key="GridCell.Tab.1.left" timestamp="1589496482429">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1876" height="401" key="GridCell.Tab.1.left/-1920.122.1280.693/0.0.1920.1160@0.0.1920.1160" timestamp="1589496482429" />
+    <state width="1624" height="409" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1589409303466" />
+    <state width="1876" height="401" key="GridCell.Tab.1.right" timestamp="1589496482429">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1876" height="401" key="GridCell.Tab.1.right/-1920.122.1280.693/0.0.1920.1160@0.0.1920.1160" timestamp="1589496482429" />
+    <state width="1624" height="409" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1589409303466" />
+    <state x="461" y="224" key="SettingsEditor" timestamp="1589403044694">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="461" y="224" key="SettingsEditor/-1920.122.1280.693/0.0.1920.1160@0.0.1920.1160" timestamp="1589403044694" />
+  </component>
+</project>
